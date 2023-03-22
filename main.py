@@ -16,7 +16,7 @@ def main(link):
 from flask import Flask, request
 import json
 
-# start of David's code 
+# Flask server set up
 
 app = Flask(__name__, static_url_path='')
 
